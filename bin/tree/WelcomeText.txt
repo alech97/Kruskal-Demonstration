@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="width: 670px">
+<p align="center"><span style="color:#0000FF;"><span style="font-size:26px;">Kruskal&rsquo;s Algorithm Demonstration</span></span></p>
+
+<p align="center">&nbsp;</p>
+
+<p align="center">&nbsp;</p>
+
+<p>Hello, and welcome to my demonstration of Kruskal&#39;s algorithm!&nbsp; Kruskal&#39;s algorithm is a line-by-line solution to solving a minimum spanning tree.&nbsp; A minimum spanning tree (MST) is a graphical representation of a network that connects n points from a subset of e edges with the minimum total edge distance where no edges can cross.&nbsp; Thus, for a subset of edges to be a minimum spanning tree, it must reach every point without any cycles.&nbsp; MST&#39;s are used to network in the real world, such as connecting several computers via cable or for image recognition.&nbsp; Thus, they are often problems in programming competitions.&nbsp;&nbsp; Kruskal&rsquo;s implementation consists of three phases.&nbsp; First, it requires a data structure that contains every non-duplicate edge and is sorted from shortest to longest, as well as an empty list to contain the taken edges.&nbsp; By evaluating from the front of the list of edges, the shortest edges that connect to disconnected points are taken until every point is connected.&nbsp; This will result in clusters, in that the points are connected in their own local regions, but not to the rest of the network.&nbsp; Finally, to evaluate these clusters, the shortest edges that connect disconnected clusters are taken until every cluster is connected.&nbsp; The end result is a subset of edges that connects every point and whose sum of edge magnitudes is the minimum possible distance.</p>
+</html>
